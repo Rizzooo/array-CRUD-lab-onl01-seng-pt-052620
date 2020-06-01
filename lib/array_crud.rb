@@ -7,14 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
-  
+  array = add_element_to_end_of_array
+  element = "Item Four"
   #{array} << #{element}
   puts #{array}.inspect
 end
-
-array = add_element_to_end_of_array
-element = "Item Four"
 
 def add_element_to_start_of_array(array, element)
   
