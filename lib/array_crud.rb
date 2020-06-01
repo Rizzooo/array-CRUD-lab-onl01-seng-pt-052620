@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
   puts #{array}.inspect
 end
 
-add_element_to_end_of_array("")
+add_element_to_end_of_array("boring_array", "Item Four")
 
 def add_element_to_start_of_array(array, element)
   
